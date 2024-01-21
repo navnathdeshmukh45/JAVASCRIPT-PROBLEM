@@ -1,2 +1,4 @@
 # JAVASCRIPT PROBLEM 
  JAVASCRIPT PROBLEM 
+
+Array problem
