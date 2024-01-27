@@ -12,3 +12,6 @@ const above90StudentsAverage = students
     .reduce((acc, student, i, arr) => acc + student.score / arr.length, 0);
 
 console.log(above90StudentsAverage);
+const above80 =students 
+.filter((student)=> student.score >80)
+.reduce((acc, student, i, arr)=> acc + student.score / arr.length, 0)

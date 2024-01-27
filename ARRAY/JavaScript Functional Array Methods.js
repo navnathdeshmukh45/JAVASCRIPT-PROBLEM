@@ -6,16 +6,23 @@ const numbers =[1,2,3,4,5,6,7,8];
 const dublednumber = numbers.map(function (num) {
 //     return num * 2;
 // console.log(num * 2);
+// console.log(num);
 });
 
+// const array =[1,2,3,4,5,6,7,8];
+// const arr = array.map(function (num) {
+// console.log(num * 2);
+
+// });
+
 // filter 
-const number =[1,2,3,4,5];
-const even = number.filter(function (num){
-     // return num %2 == 0;
-     console.log(num % 2 == 0);
-})
+// const number =[1,2,3,4,5];
+// const even = number.filter(function (num){
+//      // return num %2 == 0;
+//      console.log(num % 2 == 0);
+// })
 
 // reduce
 const number1 =[1,2,3,4,5,6];
-const reducenum =number1.reduce((accumulator, current)=>accumulator +current, 0);
+const reducenum =number1.reduce((accumulator, current)=>accumulator + current, 0);
 console.log(reducenum);
